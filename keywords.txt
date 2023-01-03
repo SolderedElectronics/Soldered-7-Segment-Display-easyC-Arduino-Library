@@ -10,7 +10,14 @@
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-begin	KEYWORD2
+begin	      KEYWORD2
+setBrightenss KEYWORD2
+setDigit      KEYWORD2
+setDP         KEYWORD2
+clearDP       KEYWORD2
+clear         KEYWORD2
+allOn         KEYWORD2
+customChar    KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
