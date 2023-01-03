@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_easy_c.html',1,'EasyC'],['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC::EasyC()']]],
-  ['easyc_2ehpp_1',['easyC.hpp',['../easy_c_8hpp.html',1,'']]],
-  ['err_2',['err',['../class_easy_c.html#a8b880d5daf116adde0cc436f1e4c0853',1,'EasyC']]]
+  ['clear_0',['clear',['../class_display7_easy_c.html#a64afdbd39e59637778f946206630bd76',1,'Display7EasyC']]],
+  ['cleardp_1',['clearDP',['../class_display7_easy_c.html#a882d1b4441922cf42d84ae9fc957d787',1,'Display7EasyC']]],
+  ['customchar_2',['customChar',['../class_display7_easy_c.html#abd27d099102add9eff71e23f2845016f',1,'Display7EasyC']]]
 ];
