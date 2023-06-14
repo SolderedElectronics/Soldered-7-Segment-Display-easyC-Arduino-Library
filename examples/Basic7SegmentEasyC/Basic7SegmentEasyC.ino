@@ -2,14 +2,17 @@
  **************************************************
  *
  * @file        Basic7SegmentEasyC.ino
- * @brief       Example how to use 7 segment display with easyC.
- *              For this example, you need Dasduino, a 7-segment display with easyC, and easyC cable.
- *              Connect the 7-segment display to Dasduino with easyC and upload this code.
- *              You will see numbers and letters displayed on the 7-segment display.
+ * @brief       Example on how to use the 7 segment display
  *
- * @link        solde.red/333190, solde.red/333206, solde.red/333207
- * 
- * @authors     Karlo Leksic for soldered.com
+ *              To successfully run the sketch:
+ *              -Connect the breakout to your Dasduino board with an easyC cable!
+ *
+ *              7-Segment display with easyC Breakout: solde.red/333190
+ *              Dasduino Core: www.solde.red/333037
+ *              Dasduino Connect: www.solde.red/333034
+ *              Dasduino ConnectPlus: www.solde.red/333033
+ *
+ * @authors     Karlo Leksic @ soldered.com
  ***************************************************/
 
 // Include Soldered library
@@ -22,7 +25,9 @@ void setup()
 {
     // Initialize 7-segment display
     display.begin();
-    // Set brightness to display
+
+    // Set medium brightness
+    // You can use values from 0 to 255
     display.setBrightenss(128);
 }
 
@@ -30,6 +35,7 @@ void loop()
 {
     // Turn on the decimal point when printing numbers
     display.setDP();
+
     // Print all 16 predefined characters with a decimal point
     // Pre-defined characters are numbers from 0 to 9 and letters from A to F in this order
     // You just have to put the index of the wanted number or letter in setDigit function
@@ -38,6 +44,7 @@ void loop()
     {
         // Set each digit on the display
         display.setDigit(i);
+        
         // A little delay just to see changes
         delay(500);
     }
@@ -48,6 +55,7 @@ void loop()
     {
         // Set each digit on the display
         display.setDigit(i);
+
         // A little delay just to see changes
         delay(500);
     }
